@@ -64,7 +64,7 @@ extension OtherWeatherView {
             .frame(width: width)
     }
     
-    func descriptionWeatherText<T: Comparable>(title: String, value: T) -> some View {
+    func descriptionWeatherText<T>(title: String, value: T) -> some View {
         VStack() {
             Text(title)
                 .font(.headline)
